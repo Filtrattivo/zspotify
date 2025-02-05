@@ -38,7 +38,7 @@ ANTI_BAN_WAIT_TIME = 5
 ANTI_BAN_WAIT_TIME_ALBUMS = 30
 # Set this to True to not wait at all between tracks and just go balls to the wall
 OVERRIDE_AUTO_WAIT = False
-CHUNK_SIZE = 50000
+CHUNK_SIZE = 32768
 
 LIMIT = 50 
 
