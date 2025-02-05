@@ -27,12 +27,12 @@ from tqdm import tqdm
 SESSION: Session = None
 sanitize = ["\\", "/", ":", "*", "?", "'", "<", ">", '"']
 
-ROOT_PATH = "/download/ZSpotify Music/"
+ROOT_PATH = "ZSpotify Music/"
 ROOT_PODCAST_PATH = "ZSpotify Podcasts/"
 SKIP_EXISTING_FILES = True
-MUSIC_FORMAT = "mp3"  # or "ogg"
+#MUSIC_FORMAT = "mp3"  # or "ogg"
 FORCE_PREMIUM = False # set to True if not detecting your premium account automatically
-RAW_AUDIO_AS_IS = False # set to True if you wish you save the raw audio without re-encoding it.
+RAW_AUDIO_AS_IS = True # set to True if you wish you save the raw audio without re-encoding it.
 # This is how many seconds ZSpotify waits between downloading tracks so spotify doesn't get out the ban hammer
 ANTI_BAN_WAIT_TIME = 5
 ANTI_BAN_WAIT_TIME_ALBUMS = 30
